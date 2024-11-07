@@ -15,6 +15,7 @@ public class  NunitPlaywright: PageTest
     {
        
         await Page.GotoAsync(url: "http://www.eaapp.somee.com");
+        //await Page.GotoAsync(url: "https://www.google.com");
     }
 
     [Test]
